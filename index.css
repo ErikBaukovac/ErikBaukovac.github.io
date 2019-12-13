@@ -1,0 +1,110 @@
+         html,
+         body {
+             font-family: Arial;
+             color: white;
+             height: 100%;
+             width: 100%;
+             margin: 0;
+         }
+         
+         span {
+             margin-left: 10px;
+         }
+         
+         header {
+             background: url("pozadina2.jpg");
+             width: 100%;
+             height: 35%;
+             background-position: top;
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
+         }
+         
+         header h1 {
+             position: absolute;
+             top: 5%;
+             left: 50%;
+             margin-left: -150px;
+             text-transform: uppercase;
+         }
+         
+         header h2 {
+             position: absolute;
+             top: 15%;
+             left: 55%;
+             margin-left: -150px;
+         }
+         
+         footer {
+             position: fixed;
+             /*position:relative - overlapping content*/
+             bottom: 0;
+             width: 100%;
+             height: 80px;
+             background: rgb(29, 28, 28);
+             display: flex;
+             align-items: center;
+             padding: 0;
+             bottom: 0;
+             /*padding: 1em 1.5em;*/
+         }
+         
+         footer * {
+             margin-right: 15px;
+         }
+         
+         footer a.button {
+             border-radius: 12px;
+             border: none;
+             outline: none;
+         }
+         
+         footer a.button:hover {
+             box-shadow: 5px 10px #888888;
+         }
+         
+         footer a.button:active {
+             box-shadow: 0 5px #666;
+             transform: translateY(4px);
+         }
+         
+         footer a img {
+             height: 40px;
+             width: 40px;
+             border-radius: 12px;
+             object-fit: cover;
+             display: inline-block;
+             padding: 0;
+             margin: 0;
+         }
+         
+         .first_section {
+             color: black;
+             margin-left: 75px;
+             display: inline-block;
+         }
+         
+         .first_section .p1 {
+             font-size: 25px;
+             font-weight: bold;
+         }
+         
+         .first_section .p2 {
+             font-size: 18px;
+             text-transform: uppercase;
+             margin-bottom: 2px;
+             margin-left: 75px;
+         }
+         /*Rijeci koje nisu UPPERCASE*/
+         
+         .first_section .p2_special {
+             font-size: 18px;
+             margin-bottom: 2px;
+             margin-left: 75px;
+         }
+         
+         .first_section .p3 {
+             font-size: 14px;
+             margin-top: 2px;
+             margin-left: 75px;
+         }
